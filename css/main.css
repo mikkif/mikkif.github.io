@@ -195,13 +195,14 @@ p {
 .more-projects a:before {
 	display: block;
 	width: 0;
-	height: 1px;
+	height: 2px;
 	content: "";
 	margin-top: 8px;
 	position: relative;	
 	z-index: 1;
 	background-color: #303030;
 	bottom: -80px;
+	transition: .4s ease all;
 }
 
 .more-projects a:hover:before {
