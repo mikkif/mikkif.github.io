@@ -177,7 +177,6 @@ p {
 }
 
 .more-projects a:hover {
-	color: #fff;
 	transition: .4s ease all;
 }
 
@@ -202,7 +201,7 @@ p {
 	position: relative;	
 	z-index: 1;
 	background-color: #303030;
-	bottom: -85px;
+	bottom: -80px;
 }
 
 .more-projects a:hover:before {
