@@ -106,7 +106,7 @@ p {
 .project-card {
 	width: 100%;
 	max-width: 385px;
-	margin-bottom: 120px;
+	margin: 0 30px 120px 30px;
 }
 
 .project-card img {
@@ -173,6 +173,12 @@ p {
 	font-family: 'Lora', serif;
 	text-decoration: none;
 	display: inline-block;
+	transition: .4s ease all;
+}
+
+.more-projects a:hover {
+	color: #fff;
+	transition: .4s ease all;
 }
 
 .more-projects a:after {
@@ -182,7 +188,26 @@ p {
 	content: "";
 	position: relative;
 	background-color: #FB4220;
-	margin-top: 8px;	
+	margin-top: 8px;
+	position: relative;
+	z-index: 0;	
+}
+
+.more-projects a:before {
+	display: block;
+	width: 0;
+	height: 1px;
+	content: "";
+	margin-top: 8px;
+	position: relative;	
+	z-index: 1;
+	background-color: #303030;
+	bottom: -85px;
+}
+
+.more-projects a:hover:before {
+	width: 100%;
+	transition: .4s ease all;
 }
 
 .footer {
