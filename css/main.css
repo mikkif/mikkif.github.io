@@ -82,6 +82,7 @@ p {
 	background-color: #C4C4C4;
 	right: 10%;
 	bottom: -10%;
+	display: none;
 }
 
 .bio {
