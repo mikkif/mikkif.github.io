@@ -62,6 +62,14 @@ p {
 	width: 24px;
 	background-color: black;
 	border-radius: 50%;
+	transition: .3s ease all;
+	display: block;
+}
+
+.logo:hover {
+	background-color: #FB4240;
+	transition: .3s ease all;
+	cursor: pointer;
 }
 
 .intro {
