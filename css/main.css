@@ -305,5 +305,26 @@ p {
     padding: 0;
     margin: 120px 0;
   }
+
+  .project-card {
+  	margin: 0;
+  	margin-bottom: 80px;
+  }
+
+  .container {
+  	padding: 0 28px;
+  }
+
+  h2 {
+  	font-size: 48px;
+  }
+
+  .more-projects p.large {
+  	font-size: 48px;
+  }
+
+  .project-card a {
+  	overflow: visible;
+  }
 }
 
